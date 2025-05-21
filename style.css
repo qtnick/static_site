@@ -1,0 +1,43 @@
+  @font-face {
+    font-family: valkyrie_c4;
+    src: url(valkyrie_c4.ttf);
+  }
+  body {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    background-color: #E9F0D8;
+  }
+  h1, h2, h3 {
+    font-family: valkyrie_c4;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1em;
+  }
+  header {
+    font-family: valkyrie_c4;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1em;
+    font-size: 3em;
+    margin-bottom: 0.7em;
+  }
+  h2 {
+    margin-top: 2em;
+  }
+  a:link {
+    text-decoration: none;
+    color: black
+  }
+  a:hover {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .visited-link {
+    text-decoration: none;
+    color: black;
+  }
