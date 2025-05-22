@@ -25,5 +25,5 @@ jobs:
       - name: Deploy with rsync
         run: |
           rsync -avz --delete ./ ec2-user@13.61.97.26:/tmp/website-temp/
-        ssh ec2-user@13.61.97.26 'sudo cp -r /tmp/website-temp/* /usr/share/nginx/html/ && sudo chown -R nginx:nginx /usr/share/nginx/html/ && sudo chmod -R 755 /usr/share/nginx/html/'
+          ssh ec2-user@13.61.97.26 'sudo cp -r /tmp/website-temp/* /usr/share/nginx/html/ && sudo chown -R nginx:nginx /usr/share/nginx/html/ && sudo chmod -R 755 /usr/share/nginx/html/'
           
