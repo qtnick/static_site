@@ -1,2 +1,2 @@
 # static_site
-My static site code.
+My static site HTML, CSS and CI/CD workflow.
